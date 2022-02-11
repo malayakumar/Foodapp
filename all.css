@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+}
+#navbar {
+    display: flex;
+    background-color: rgb(187, 161, 74);
+    justify-content: space-evenly;
+}
+a {
+    text-decoration: none;
+    color: rgb(29, 10, 18);
+    
+}
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+#input {
+    width: 400px;
+    height: 23px;
+    margin-right: 5px;
+}
+#search {
+    margin-top: 17px;
+}
+#card {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+img {
+    width: 70%;
+    border-radius: 5px;
+}
+#font {
+  color: green;
+}
